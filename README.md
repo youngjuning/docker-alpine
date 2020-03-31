@@ -1,1 +1,4 @@
 # docker-alpine
+
+- nodejs
+- yarn
