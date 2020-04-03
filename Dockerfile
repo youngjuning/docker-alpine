@@ -1,3 +1,6 @@
+# escape=\ (backslash)
+# 基于阿里云镜像的 Alpine 镜像
+
 FROM alpine
 
 LABEL maintainer="youngjuning<youngjuning@aliyun.com>"
