@@ -3,7 +3,6 @@
 
 FROM alpine
 
-LABEL maintainer="youngjuning<youngjuning@aliyun.com>"
+LABEL maintainer youngjuning<youngjuning@aliyun.com>
 
-RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories && \
-    apk update && apk upgrade
+RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories
